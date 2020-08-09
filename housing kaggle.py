@@ -312,5 +312,6 @@ print('RMSE:',rmse)
 score = forest_reg.score(X_train, y_train)
 print('score:',score*100)
 
-
+Result = pd.DataFrame(zip(y_test, forest_pred), columns=['Actual', 'Predicted'],)
+print(Result)
 

@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+# Importing necessary liabraries 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,13 +12,13 @@ import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 
 
-# In[2]:
+# In[2]: Read the file by using pandas
 
 
 df1 = pd.read_csv('24824_33185_compressed_housing.csv.zip')
 
 
-# In[3]:
+# In[3]: copy the data and save it in df variable
 
 
 df = df1.copy(deep = True)
@@ -36,7 +36,7 @@ df.head()
 df.info()
 
 
-# In[6]:
+# In[6]: Plotting the bar plot for all the columns in data 
 
 
 fig = plt.figure(figsize=(25, 15))

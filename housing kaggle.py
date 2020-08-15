@@ -54,14 +54,14 @@ for i, column in enumerate(df.columns):
 plt.subplots_adjust(hspace=0.5, wspace=0.2)
 
 
-# In[7]:
+# In[7]: Plot heatmap for Correlation 
 
 
 plt.figure(figsize=(11,9))
 sns.heatmap(df.corr(), annot=True, fmt='.1g',cmap='viridis')
 
 
-# In[8]:
+# In[8]: Filling the Na values by the median of total_bedrooms
 
 
 df['total_bedrooms'] = df['total_bedrooms'].fillna(df['total_bedrooms'].median())

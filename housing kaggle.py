@@ -67,13 +67,13 @@ sns.heatmap(df.corr(), annot=True, fmt='.1g',cmap='viridis')
 df['total_bedrooms'] = df['total_bedrooms'].fillna(df['total_bedrooms'].median())
 
 
-# In[9]:
+# In[9]: Check the null values after filling.
 
 
 df.isnull().sum()
 
 
-# In[10]:
+# In[10]: Check the values of ocean_proximity column 
 
 
 df['ocean_proximity'].value_counts()

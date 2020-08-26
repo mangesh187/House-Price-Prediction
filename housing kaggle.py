@@ -97,7 +97,7 @@ df.columns
 
 
 
-# In[12]:
+# In[12]:Plotting scatter of median_income and median_house_value
 
 
 df.plot.scatter(x='median_income',y='median_house_value',alpha=0.1)

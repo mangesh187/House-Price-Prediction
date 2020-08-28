@@ -81,10 +81,6 @@ df['ocean_proximity'].value_counts()
 
 # In[ ]:
 
-
-
-
-
 # In[11]:
 
 

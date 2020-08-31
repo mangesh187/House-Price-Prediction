@@ -111,7 +111,7 @@ df.plot.scatter(x='housing_median_age',y='population')
 df = df[df['population']<20000]
 
 
-# In[15]:
+# In[15]: Creating some features 
 
 
 df['rooms_per_bedrooms'] = df['total_rooms'] / df['total_bedrooms']

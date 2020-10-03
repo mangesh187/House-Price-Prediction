@@ -48,4 +48,3 @@ This dataset is a modified version of the California Housing dataset available f
     50%        433.000000   1164.000000    408.000000       3.541400  
     75%        644.000000   1718.000000    602.000000       4.745000  
     max       6210.000000  35682.000000   5358.000000      15.000100
- 

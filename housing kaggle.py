@@ -151,9 +151,6 @@ df = pd.get_dummies(df, columns=['ocean_proximity'])
 df.columns
 
 
-# In[ ]:
-
-
 # In[20]:
 
 

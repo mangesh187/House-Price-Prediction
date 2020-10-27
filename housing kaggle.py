@@ -298,4 +298,3 @@ print('score:',score*100)
 
 Result = pd.DataFrame(zip(y_test, forest_pred), columns=['Actual', 'Predicted'],)
 print(Result)
-

@@ -292,7 +292,6 @@ print('RMSE:',rmse)
 
 # In[65]:
 
-
 score = forest_reg.score(X_train, y_train)
 print('score:',score*100)
 
